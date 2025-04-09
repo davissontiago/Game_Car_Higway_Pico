@@ -9,13 +9,12 @@ O conteúdo típico da pasta deve incluir um servidor Flask simples e arquivos H
 - `server.py` — Arquivo principal que inicializa o servidor Flask.
 - `static/` — Pasta com arquivos JavaScript, CSS e imagens.
 - `templates/` — Pasta com arquivos HTML.
-- `requirements.txt` — Dependências Python necessárias para rodar o servidor.
 
 ## 🚀 Como executar o servidor
 
-1. Instale as dependências:
+1. Instale o flask:
    ```bash
-   pip install -r requirements.txt
+   pip install flask
    ```
 
 2. Execute o servidor:
