@@ -35,7 +35,7 @@ O jogo deve estar hospedado em um servidor Flask que escute os endpoints `/left`
 ## 📥 Clonagem e Compilação
 
 ```bash
-git clone <seu-repositorio-adaptado>
+git clone <https://github.com/davissontiago/Game_Car_Higway.git>
 cd <diretorio>
 mkdir build
 cd build
