@@ -2,12 +2,18 @@
 
 Este firmware foi desenvolvido para controlar um jogo hospedado em um servidor Flask utilizando uma placa **Raspberry Pi Pico W**. Dois botões físicos conectados à plaquinha enviam comandos via HTTP para o servidor, permitindo controlar as ações do jogo (por exemplo, mover para a esquerda ou direita).
 
+![Foto do Jogo](web/static/img/Game.png)
+
+---
+
 ## 🔧 Funcionalidades
 
 - Conexão automática à rede Wi-Fi.
 - Envio de comandos `LEFT` ou `RIGHT` através de requisições HTTP GET.
 - LEDs azuis e vermelhos acendem ao pressionar os botões para feedback visual.
 - Intervalo configurável entre leituras dos botões.
+
+---
 
 ## 📦 Estrutura
 
@@ -17,20 +23,25 @@ O código principal está no arquivo:
 
 O projeto é configurado e compilado usando CMake.
 
+---
+
 ## 🧪 Dependências
 
 - [Pico SDK](https://github.com/raspberrypi/pico-sdk)
 - Biblioteca `lwIP` e `mbedTLS` (já integradas ao SDK com suporte ao Pico W).
 - `example_http_client_util.c` – utilitário de requisição HTTP.
 
+---
+
 ## 📡 Conexão com o Jogo
 
 O jogo deve estar hospedado em um servidor Flask que escute os endpoints `/left` e `/right`. A plaquinha envia os comandos via HTTP para o IP e porta definidos nas macros:
 
 ```c
-#define HOST "192.168.xx.xx"
+#define HOST "192.168.xx.xxx"
 #define PORT 5000
 ```
+---
 
 ## 📥 Clonagem e Compilação
 

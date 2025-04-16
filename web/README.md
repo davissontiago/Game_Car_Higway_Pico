@@ -1,6 +1,6 @@
 # Pasta `web/` - Servidor Flask para controle via HTTP
 
-Esta pasta contém o código do **servidor web Flask** que recebe comandos enviados pela placa **Raspberry Pi Pico W** via requisições HTTP. O servidor interpreta comandos como `/left` e `/right`, que podem ser usados para controlar um jogo ou aplicação no navegador.
+Esta pasta contém o código do **servidor web Flask** que recebe comandos enviados pela placa **Raspberry Pi Pico W** via requisições HTTP. O servidor interpreta comandos como `/left` e `/right` por meio do SocketIO, que podem ser usados para controlar um jogo ou aplicação no navegador.
 
 ## 📂 Estrutura esperada
 
@@ -16,13 +16,17 @@ O conteúdo típico da pasta deve incluir um servidor Flask simples e arquivos H
    ```bash
    pip install flask
    ```
+2. Instale o flask-socketio:
+   ```bash
+   pip install flask-socketio
+   ```
 
-2. Execute o servidor:
+3. Execute o servidor:
    ```bash
    python server.py
    ```
 
-3. Acesse no navegador:
+4. Acesse no navegador:
    ```
    http://localhost:5000
    ```
@@ -41,6 +45,10 @@ Você pode adaptar o backend para interpretar esses comandos como quiser (por ex
 ## 💡 Exemplo de uso
 
 A aplicação pode ser integrada com um jogo HTML/JS que responde aos comandos recebidos via WebSocket ou outra comunicação backend.
+
+---
+
+> Se você encontrar dificuldade para configurar o servidor veja um tutorial completo de como configurar na rp2040: https://github.com/davissontiago/Tutorial_Servidor_Flask_Pico/blob/main/README.md
 
 ---
 

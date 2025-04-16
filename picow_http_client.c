@@ -83,7 +83,7 @@ int main() {
                 printf("Erro ao enviar comando: %d\n", result);
             }
 
-            sleep_ms(100);  // Evita múltiplos envios rápidos
+            sleep_ms(20);  // Evita múltiplos envios rápidos
         }
 
         sleep_ms(INTERVALO_MS);
