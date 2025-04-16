@@ -65,4 +65,4 @@ Adaptei esse código para uso com um mini game controlado por botões físicos, 
 ---
 # Readme do Servidor e do Jogo
 
-[Clique Aqui.](web/Readme.md)
+[Clique Aqui!](https://github.com/davissontiago/Game_Car_Higway_Pico/blob/main/web/README.md)
