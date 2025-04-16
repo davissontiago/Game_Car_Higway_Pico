@@ -61,3 +61,8 @@ Este projeto foi **baseado no código original de** [@igordev23](https://github.
 📎 https://github.com/igordev23/picoHttp_local_pyserver/blob/main/picow_http_client.c
 
 Adaptei esse código para uso com um mini game controlado por botões físicos, integrando com um servidor Flask via HTTP.
+
+---
+# Readme do Servidor e do Jogo
+
+[Clique Aqui.](web/Readme.md)

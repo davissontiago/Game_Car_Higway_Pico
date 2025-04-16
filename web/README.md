@@ -48,8 +48,8 @@ A aplicação pode ser integrada com um jogo HTML/JS que responde aos comandos r
 
 ---
 
-> Se você encontrar dificuldade para configurar o servidor veja um tutorial completo de como configurar na rp2040: https://github.com/davissontiago/Tutorial_Servidor_Flask_Pico/blob/main/README.md
+> 💬 Dica: para testes rápidos, você pode simular os comandos no navegador acessando diretamente `http://localhost:5000/left` e `http://localhost:5000/right`.
 
 ---
 
-> 💬 Dica: para testes rápidos, você pode simular os comandos no navegador acessando diretamente `http://localhost:5000/left` e `http://localhost:5000/right`.
+> **Se você encontrar dificuldade para configurar o servidor veja um tutorial completo de como configurar corretamente na rp2040:** https://github.com/davissontiago/Tutorial_Servidor_Flask_Pico/blob/main/README.md
